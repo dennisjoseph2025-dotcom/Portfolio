@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Iceberg&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="icon" href="logo.jpg">
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "DTA61IjA93SVkKuT0",
+      });
+   })();
+</script><title>DENNIS JOSEPH</title>
+</head>
+<body>
+    <section class="home" id="home">
+    <div class="container-fluid">
+        <header>
+            <a class="link" href="DENNIS JOSEPH'S CV.pdf">DENNIS</a>
+        </header>
+        <div class="menu-icon" id="menu-icon">
+            <i class="fa fa-bars"></i>
+        </div>
+        <nav>
+            <ul class="link">
+                <li><a href="#home" class="link">HOME</a></li>
+                <li><a href="#about" class="link">ABOUT</a></li>
+                <li><a href="#project" class="link">PROJECT</a></li>
+                <li><a href="#contact" class="link">CONTACT</a></li>
+            </ul>
+        </nav>
+    </div>
+        <div class="home">
+            <div class="intro">
+                <h1>HELLO, I'M DENNIS JOSEPH,</h1>
+                <h3>An intern at BRIDGEON</h3>
+                <p class="cv">&nbsp;To Download My CV Click "DENNIS"</p>
+                <div class="social-link">
+                    &nbsp;
+                    <a href="https://github.com/dennisjoseph2025-dotcom">
+                    <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="https://www.instagram.com/its.denjo/">
+                    <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/dennis-joseph-4a8903344/">
+                    <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="https://www.facebook.com/profile.php?id=100070004010271">
+                    <i class="fa-brands fa-facebook"></i>   
+                    </a>           
+                </div>
+            </div>
+        </div>
+        <div class="profile-pic">
+            <img src="pofile-pic.png" alt="pic">
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="about-div">
+            <div class="about-pic">
+                <img src="about-pic.png">
+            </div>
+
+            <div class="about-me">
+                <h1>ABOUT ME:</h1>
+            <p>I’m Dennis, a driven and detail-oriented individual passionate about learning, problem-solving, and creating impactful solutions. 
+                I enjoy combining creativity with analytical thinking to tackle challenges and deliver results that matter. 
+                With a mindset focused on continuous growth, 
+                I embrace new opportunities, adapt quickly, and collaborate effectively while staying committed to excellence. 
+                My goal is to contribute to projects that challenge conventional thinking and offer avenues for both personal and professional development, 
+                using innovation, resilience, and hard work to make a meaningful difference.</p> 
+            </div>
+        </div>
+    </section>
+    <section class="project" id="project">
+        <div class="project">
+            <h1>PROJECTS:</h1>
+            <div class="project-list">
+                <div class="card">
+                    <img src="w3school-navbar.png" alt="project1">
+                    <h3>Navbar</h3>
+                    <p>Create W3School Navbar</p>
+                </div>
+                <div class="card">
+                    <img src="trivago-clone.png" alt="project2">
+                    <h3>&nbsp;&nbsp;Cloning</h3>
+                    <p>Cloned Trivago website</p>
+                </div>
+            </div>    
+        </div>
+    </section>    
+    <section class="contact" id="contact">
+        <!-- <body class="bg-light"> -->
+  <div class="container mt-5">
+    <h2 class="mb-4">Contact Me:</h2>
+    <form id="contact-form">
+      <div class="mb-3">
+        <label for="name" class="form-label">Name</label>
+        <input type="text" class="form-control" id="name" name="from_name" required>
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Email</label>
+        <input type="email" class="form-control" id="email" name="from_email" required>
+      </div>
+      <div class="mb-3">
+        <label for="message" class="form-label">Message</label>
+        <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Send</button>
+    </form>
+    <div id="status" class="mt-3"></div>
+  </div>
+    </section>
+    <footer>
+        <div class="cnt-details">
+            <div><p>Dennis Joseph</p></div>
+            <div><p>+918301924243</p></div>
+            <div><p>dennisjoseph2025@gmail.com</p></div>
+        </div>
+    </footer>
+    <script src="portfolio.js">
+    </script>
+</body>
+</html>
