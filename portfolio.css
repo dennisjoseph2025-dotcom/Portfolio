@@ -261,6 +261,7 @@ nav ul.link {
         position: relative;
         bottom:50px;
         right: 30px;
+        z-index: 2;
     }
     .profile-pic {
         position: absolute;
@@ -319,6 +320,7 @@ nav ul.link {
     }
     .project-list h3 {
         font-size: 30px !important;
+        z-index: 2;
     }
     .project-list p {
         font-size: 15px;
