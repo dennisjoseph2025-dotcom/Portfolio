@@ -191,12 +191,10 @@ section
 {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    gap: 540px;
+    justify-content: center;
     color: white;
-    position: fixed;
-    bottom: 0px;
     background-color: black;
+    width:100%;
 }
 .cnt-details p
 {
